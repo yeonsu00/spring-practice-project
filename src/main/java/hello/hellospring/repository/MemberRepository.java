@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
-@Repository
 public interface MemberRepository {
     Member save(Member member); //저장소에 저장됨
     Optional<Member> findById(Long id); //Optional은 null을 반환하는 방식
